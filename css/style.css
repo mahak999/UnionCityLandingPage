@@ -1,0 +1,252 @@
+#section1-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Nest_page.jpg");
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px;
+}
+
+#logo-navbar {
+  color: FFD966;
+}
+
+#nav1 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 80px 15px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  word-spacing: 2em;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #fff2cc;
+}
+
+/* font-family: 'Merriweather Sans', sans-serif; */
+
+#nav1 .nav_link #nav_main {
+  color: #ffd56f;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+#section1_2-main {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  display: inline-block;
+  margin: 0 25%;
+  width: 50%;
+  height: 93%;
+}
+
+#s1_2_main {
+  color: #ffffff;
+}
+
+#line1 {
+  font-size: 100px;
+  position: relative;
+  top: 220px;
+  left: 15%;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+#line2 {
+  font-size: 30px;
+  position: relative;
+  top: 270px;
+  left: 19%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#line3 {
+  font-size: 20px;
+  position: relative;
+  top: 290px;
+  left: 26%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sect2 {
+  margin: 10% 10% 20%;
+  padding-bottom: 70px;
+}
+
+.sect2_div_l {
+  float: left;
+  width: 50%;
+}
+
+.sect2_div_r {
+  float: right;
+  width: 50%;
+}
+
+.vl {
+  border-left: 3px solid #bfaa88;
+  height: 600px;
+}
+
+.s2_d_l_text {
+  position: relative;
+  bottom: 550px;
+}
+
+#s2_l2 {
+  color: #bfaa88;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 20px;
+  position: relative;
+  left: -10%;
+  top: 10%;
+}
+
+#s2_l3 {
+  font-size: 20px;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  top: 40px;
+  position: relative;
+  left: -10%;
+}
+
+#s2_img_l {
+  height: 110%;
+  width: 70%;
+  padding-bottom: 70px;
+  position: relative;
+  left: 10%;
+}
+
+#s2_r_cont {
+  width: 70%;
+}
+
+.s2_table {
+  position: relative;
+  top: 60px;
+  left: 59px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+td {
+  padding-right: 35px;
+}
+
+.odd {
+  background-color: #eddbc7;
+}
+
+.sect3 {
+  position: relative;
+  top: 320px;
+  background-color: #434242;
+  color: #bfaa88;
+  height: 500px;
+  width: 100%;
+}
+
+#sect3_main {
+  position: relative;
+  bottom: 60px;
+}
+
+.sect3_div_l {
+  position: relative;
+  left: 15%;
+  width: 30%;
+}
+
+.sect3_div_r {
+  position: relative;
+  width: 40%;
+  left: 50%;
+}
+
+#s3_l1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  width: 50px;
+  color: #ffd56f;
+}
+
+.vl2 {
+  border-left: 3px solid #bfaa88;
+  height: 300px;
+  position: relative;
+  bottom: 170px;
+}
+
+.s3_d_l_text {
+  position: relative;
+  bottom: 400px;
+  left: 20px;
+}
+
+#s3_r1 {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  bottom: 30px;
+}
+
+#s3_r2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.sect4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../images/house.jpg");
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px;
+}
+
+.sect5 {
+  height: 900px;
+  background-color: #d8d8d8;
+}
+
+.sect5_div_r {
+  position: relative;
+  width: 40%;
+  left: 50%;
+  bottom: 130px;
+}
+
+#s5_logo {
+  position: relative;
+  left: 15%;
+  top: 80px;
+}
+
+.sect5_div_r .s5_d_r_text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+}
+
+#map_heading {
+  position: relative;
+  left: 45%;
+  bottom: 230px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#sect5_map {
+  width: 70%;
+  height: 50%;
+  position: relative;
+  left: 2%;
+  top: 40px;
+}
