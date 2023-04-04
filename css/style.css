@@ -60,7 +60,7 @@
   font-size: 30px;
   position: relative;
   top: 270px;
-  left: 19%;
+  left: 38%;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -212,7 +212,7 @@ td {
 }
 
 .sect5 {
-  height: 900px;
+  height: 950px;
   background-color: #d8d8d8;
 }
 
@@ -247,6 +247,159 @@ td {
   width: 70%;
   height: 50%;
   position: relative;
-  left: 2%;
+  left: 0px;
   top: 40px;
+}
+
+.sect7 {
+  padding-top: 8%;
+  background-color: rgb(250, 250, 250);
+  padding-bottom: 8%;
+}
+
+.s7_d_l {
+  float: left;
+  width: 50%;
+  position: relative;
+  left: 80px;
+}
+
+.s7_d_r {
+  float: right;
+  width: 40%;
+  position: relative;
+  right: 90px;
+}
+
+.s7_l1 {
+  color: #bfaa88;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+
+.s7_l2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+
+#s7_img {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: 80%;
+}
+
+.sect8 {
+  background-color: rgb(44, 44, 44);
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+#s8_pic {
+  height: 70%;
+  width: 80%;
+  position: relative;
+  left: 15%;
+}
+
+.sect9 {
+  background-color: rgb(244, 243, 242);
+  height: 970px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  align-content: center;
+}
+
+#s9_p1 {
+  height: 300px;
+  width: 550px;
+  padding-top: 100px;
+  position: relative;
+  left: 30%;
+}
+
+#s9_form {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.form_label {
+  display: block;
+  float: left;
+  line-height: 30px;
+  width: 50%;
+  height: 70px;
+  font-size: 19px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form_field {
+  position: relative;
+  display: block;
+  float: right;
+  text-align: left;
+  line-height: 30px;
+  width: 30%;
+  height: 70px;
+  padding-bottom: 30px;
+}
+
+.register_button {
+  background-color: #bfaa88;
+  text-decoration: none;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-size: 25px;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+#button_s1 {
+  position: relative;
+  left: 23%;
+  top: 60%;
+}
+
+.sect10 {
+  height: 35px;
+  width: 100%;
+  background-color: rgb(168, 146, 122);
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#last_logo {
+  position: relative;
+  left: 15%;
+  text-decoration: underline;
+  font-size: 17px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#b1 {
+  text-decoration: none;
+  background-color: #bfaa88;
+  text-decoration: none;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-size: 25px;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+#b2 {
+  margin-top: 50px;
+  position: relative;
+  left: 20%;
 }

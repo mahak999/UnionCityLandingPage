@@ -35,6 +35,7 @@
   <body>
     <!-- Section 1 -->
     <section class="sect1" id="header">
+      <a name="home"></a>
       <div class="container-fluid" id="section1-main">
         <div class="container-fluid" id="nav1">
           <div class="topnav">
@@ -43,8 +44,8 @@
             >
             <a href="#about" class="nav_link">ABOUT</a>
             <a href="#location" class="nav_link">LOCATION</a>
-            <a href="#about" class="nav_link">BUILDER</a>
-            <a href="#home" class="nav_link">REGISTER</a>
+            <a href="#builder" class="nav_link">BUILDER</a>
+            <a href="#register_sect" class="nav_link">REGISTER</a>
           </div>
         </div>
 
@@ -53,9 +54,12 @@
         <div class="container-fluid" id="section1_2-main">
           <div class="container" id="s1_2_main">
             <span id="line1">UNIONCITY</span><br />
-            <span id="line2">COMING SOON TO UNIONVILLE</span><br />
+            <span id="line2">UNIONVILLE</span><br />
             <span id="line3">Enterprise Boulevard, Markham, Ontario </span>
           </div>
+          <button class="register_button" id="button_s1">
+            <a href="#register_sect" id="b1">Register</a>
+          </button>
         </div>
       </div>
     </section>
@@ -167,6 +171,134 @@
         <span id="map_heading"> - LOCATION -</span>
         <img src="./images/map.png" alt="" id="sect5_map" />
       </div>
+    </section>
+
+    <!-- Section 6 map -->
+    <section class="sect6">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.1199493730164!2d-79.31349398442221!3d43.853342447483456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d56cd3b88b89%3A0x2a181f7c54400a8c!2sUnion%20City%20Condos!5e0!3m2!1sen!2sca!4v1680044551326!5m2!1sen!2sca"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- Section 7 -->
+
+    <section class="sect7">
+      <div class="container" id="sect7_main">
+        <div class="s7_d_l">
+          <span class="s7_l1">Location & Neighbourhood</span>
+        </div>
+        <div class="s7_d_r">
+          <span class="s7_l2"
+            >UnionCity Condos will be arriving in Markham’s downtown
+            neighbourhood, also known Unionville. This region is an excellent
+            location for people of all ages due to its proximity to excellent
+            amenities. This area is home to Markham’s entertainment hub and
+            transit hub making it a great place to live and invest in.<br />
+            The best part of being in the downtown area is its proximity to
+            family-friendly urban amenities. These include a GoodLife Fitness,
+            banks, Cineplex Cinemas Markham and VIP, and a diverse range of
+            restaurants and speciality shops which can be found within walking
+            distance. Downtown Markham is a 243​-acre community budding with
+            diverse, multi-lingual, highly educated, well-employed and
+            incredibly trend-conscious members.</span
+          >
+        </div>
+        <img src="./images/s7_location.png" alt="" id="s7_img" />
+      </div>
+    </section>
+
+    <!-- Section 8 -->
+    <a name="builder"></a>
+    <section class="sect8">
+      <img src="./images/s8-pic.png" alt="" id="s8_pic" />
+    </section>
+
+    <!-- Section 9 -->
+    <section class="sect9">
+      <a name="register_sect"></a>
+      <img src="./images/s9-p1.png" alt="" id="s9_p1" />
+      <div>
+        <form
+          action="https://formsubmit.co/sarahotproperty@gmail.com"
+          method="POST"
+          id="s9_form"
+        >
+          <label for="name" class="form_label">Full name</label>
+          <div class="form_field">
+            <input type="text" name="name" required /><br />
+          </div>
+
+          <label for="email" class="form_label">Email</label>
+          <div class="form_field">
+            <input type="text" name="email" required />
+          </div>
+          <label for="phone" class="form_label">Phone Number</label>
+          <div class="form_field">
+            <input type="text" name="phone" required />
+          </div>
+          <label class="form_label">Are you a Realtor?</label>
+          <div class="form_field">
+            <input type="radio" name="realtor" value="Yes" required />
+            <label for="realtor">&nbsp;Yes</label><br />
+            <input type="radio" name="realtor" value="No" required /><label
+              for="realtor"
+              >&nbspNo</label
+            >
+          </div>
+
+          <label for="phone" class="form_label">Bedrooms (optional)</label>
+          <div class="form_field">
+            <select id="bedroom" name="bedrooms">
+              <option value="1Bedroom">1 Bedroom</option>
+              <option value="1 Bedroom + 1 Den">1 Bedroom + 1 Den</option>
+              <option value="2 Bedrooms">2 Bedrooms</option>
+              <option value="2 Bedrooms + 1 Den">2 Bedrooms + 1 Den</option>
+              <option value="3 Bedrooms or More">3 Bedrooms or More</option>
+            </select>
+          </div>
+          <label for="parking" class="form_label">Parking (optional)</label>
+          <div class="form_field">
+            <input type="radio" name="parking" value="Yes" /><label
+              for="parking"
+              >&nbsp;Yes</label
+            ><br />
+            <input type="radio" name="parking" value="No" /><label for="parking"
+              >&nbsp;No</label
+            >
+          </div>
+          <label for="locker" class="form_label">Locker (optional)</label>
+          <div class="form_field">
+            <input type="radio" name="locker" value="Yes" /><label for="locker"
+              >&nbsp;Yes</label
+            ><br />
+            <input type="radio" name="locker" value="No" /><label for="locker"
+              >&nbsp;No</label
+            >
+          </div>
+          <input type="hidden" name="_next" value="./thanks.html" />
+          <input type="hidden" name="_subject" value="Unionville Condo Lead!" />
+          <button type="submit" class="register_button" id="b2">
+            Register
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Last small section -->
+    <section class="sect10">
+      *We Do Not Represent The Builder. All Info & Renderings are Subject To
+      Changes* All Rights Reserved.
+      <span
+        ><a href="https://www.cypro.ca/" id="last_logo"
+          >CYPRO REALTTY INC.</a
+        ></span
+      >
     </section>
   </body>
 </html>
